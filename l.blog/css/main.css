@@ -1,0 +1,253 @@
+/* CSS Document */
+nav{
+	background: transparent;
+	height: 50px;
+}
+.main-wrapper{
+	background: #444 url(../images/images-blog/banner.jpg) no-repeat;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+  
+}
+ul{
+	margin:0;
+}
+
+.clearfloat{zoom:1;}
+.clearfloat:after{
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;
+}
+#banner{
+	background: transparent;
+	height: 700px;
+}
+ul{
+	list-style:none;
+	margin:0;
+	float:right;
+}
+header{
+	background:rgba(0,0,0,0.2);
+}
+li,nav .logo{
+	display:inline-block;
+	line-height:50px;
+	margin-right:20px;
+	float:left;
+	padding:10px;
+}
+nav ul li a{
+	line-height:50px;
+	text-decoration:none;
+	display:inline-block;
+	height:inheight;
+	color:#fff;
+}
+nav ul li.logo{
+	float:left;
+}
+#banner .inner{
+	max-width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 160px;
+}
+#banner .inner h1{
+	margin:0;
+}
+button{
+	border:none;
+	background:#333;
+	color:#eee;
+	padding:14px 40px;
+}
+#banner .inner .more{
+	margin-top:320px;
+}
+.sub-heading{
+	line-height: 30px;
+	margin: 30px 0;
+}
+.logo{
+	font-size:20px;
+	font-weight:700;
+	letter-spacing:1px;
+	
+}
+.logo a{
+	coloe:#fff;
+}
+.green-section{
+	text-align:center;
+	background:#089db0;
+	color:#fff;
+	padding:100px 0;
+	display:block;
+	
+}
+.warpper{
+	max-width:600px;
+	margin:0 auto;
+}
+h2{
+	font-size:30px;
+}
+h3{
+	font-size:24px;
+	overflow:hidden;
+}
+#main-btn{
+	padding:14px 28px;
+	font-size:20px;
+	letter-spacing:4px;
+	border-radius:6px;
+	background:#18a;
+}
+.hr{
+	width:100%;
+	height:2px;
+	margin:20px auto;
+}
+.green-section .hr{
+	background:#078494;
+	width:60%;
+}
+.sub-heding{
+	font-size:18px;
+}
+.green-section .icon-group .icon{
+	display:inline-block;
+	width:80px;
+	height:80px;
+	
+	border:1px solid #0d6f7c;
+	transform:rotate(45deg);
+	margin:20px;
+}transform:rotate(45deg);意思是旋转45度
+.icon-group{
+	margin-top:60px;
+}
+.gray-section{
+	background:#252f3d;
+	color:#fff;
+}
+.gray-section .img-section{
+	width:45%;
+}
+.gray-section .img-section img{
+	width:100%;
+}
+
+.gray-section .text-section{
+	width:55%;
+}
+.article-preview > div{
+	float:left;
+	font-size:0;
+}
+.article-preview:nth-child(odd){
+	background-color:rgba(255,255,255,0.05);
+}/*渐变色，很重要，我以前没听说过！nth-chind(odd)意思好像是给odd即为奇数的子类元素添加css样式*/
+.article-preview:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.text-section{
+	position:relative;
+	top:68px;
+	left:50px;
+}
+.text-section h2{
+	margin-bottom:20px;
+}
+.text-section p{
+	font-size:18px;
+	letter-spacing:1px;
+}
+.text-section .sub-heading{
+	font-size:22px;
+	margin-top:0;
+}
+.text-section > *{
+	max-width:90%;
+}
+.purple-section{
+	padding:80px;
+	background:#3f3965;
+	color:#fff;
+}
+.purple-section .heading-wrapper{
+	text-align:center;
+}
+.purple-section .hr{
+	background:#373259;
+	width:60%;
+}
+.card{
+	float: left;
+	width: 50%;
+	min-height: 300px;
+	padding: 20px;
+	border: 1px solid white;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.card p{
+	font-size:18px;
+	letter-spacing:1px;
+}
+.card:first-child{
+	background:rgba(0,0,0,0.05);
+}
+.card:nth-child(2){
+	background:rgba(0,0,0,0.10);
+}
+.card:nth-child(3){
+	background:rgba(0,0,0,0.15);
+}
+.card:nth-child(4){
+	background:rgba(0,0,0,0.20);
+}
+
+.card:nth-child(5){
+	background:rgba(0,0,0,0.25);
+}
+	
+.card:nth-child(6){
+	background:rgba(0,0,0,0.25);
+}
+footer{
+	background:#333;
+	color:#fff;
+	min-height:200px;
+	text-align:center;
+	
+}
+.share-group{
+	display:block;
+	width:1080px;
+	margin:0 auto;
+	padding:50px;
+}
+.share-group li{
+	display:inline-block;
+	padding:10px;
+}
+
+.copy{
+	
+	padding-bottom:20px;
+}
+.copy p{
+	text-align:center;
+}
+	
